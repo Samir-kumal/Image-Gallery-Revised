@@ -8,8 +8,8 @@ const HomeContainer = () => {
         setInputData(value)
     }
   return (
-    <div className="w-screen h-fit bg-black flex flex-col gap-y-2 justify-center items-center">
-        <h2 className="text-white text-4xl font-bold">Image Gallery</h2>
+    <div className="w-screen h-fit flex flex-col gap-y-2 justify-center items-center">
+        <h2 className="text-black text-4xl font-bold">Image Gallery</h2>
 <SearchInput handleData = {handleData} />
 <div>
     <Content inputData = {inputData}/>

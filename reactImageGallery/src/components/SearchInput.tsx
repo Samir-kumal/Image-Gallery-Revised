@@ -19,7 +19,7 @@ const SearchInput:React.FC<SearchInputProps> = ({handleData}) => {
     <div>
       <form onSubmit={handleSubmit}>
       <input
-        className="px-12 py-4 "
+        className="px-12 py-4 outline-none shadow-xl"
         placeholder="Search value"
         type="text"
         value={input}
